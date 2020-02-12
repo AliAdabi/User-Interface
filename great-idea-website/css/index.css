@@ -16,9 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	/* margin: 0; */
+	/* padding: 0; */
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid gray;
 }
 
 html, body {
@@ -65,5 +66,23 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .navigation {
-	color : red;
+	color : gray;
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+	margin:  auto 0;
+
+}
+p{
+	display: inline-block;
+	width: 12%;
+}
+.innovation {
+	display: inline-block;
+	width: 40%;
+	font-size: 78px;
+}
+.image{
+	display: inline-block;
+	width: 20%;
 }
