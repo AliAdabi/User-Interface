@@ -73,16 +73,21 @@ h1, h2, h3, h4, h5 {
 	margin:  auto 0;
 
 }
+header{
+	width: 100%;
+	height: 40%;
+}
 p{
 	display: inline-block;
 	width: 12%;
 }
+
 .innovation {
 	display: inline-block;
 	width: 40%;
 	font-size: 78px;
+	height: 10px;
 }
 .image{
 	display: inline-block;
-	width: 20%;
 }
