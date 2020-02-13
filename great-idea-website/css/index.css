@@ -102,5 +102,29 @@ p{
 	margin : 0px 0px 0px 150px;
 }
 .top-sec{
+	height: 30%;
+}
+.future {
 	display: inline-block;
+	width: 49%;
+	height: 200px;
+	background-color: yellow;
+}
+
+.about {
+	display: inline-block;
+
+	width: 49%;
+	height: 200px;
+	background-color: teal;
+}
+.future p{
+	
+}
+.imga {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width : 50%
+
 }
