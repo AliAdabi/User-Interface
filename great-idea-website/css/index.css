@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 2px solid gray;
+	
 }
 
 html, body {
@@ -114,7 +114,7 @@ p{
 	display: inline-block;
 	width: 49%;
 	height: 100%;
-	background-color: yellow;
+	
 }
 
 .about {
@@ -122,7 +122,7 @@ p{
 
 	width: 49%;
 	height: 100%;
-	background-color: teal;
+	
 }
 .future p{
 	margin-left: 300px;
@@ -155,4 +155,7 @@ p{
 footer{
 	text-align: center;
 
+}
+.HEAD{
+	display: flex;
 }
