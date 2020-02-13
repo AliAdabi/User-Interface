@@ -86,15 +86,21 @@ header P{
 p{
 	display: inline-block;
 	width: 12%;
+
 }
 
 .innovation {
 	display: inline-block;
 	text-align: center;
 	width: 40%;
+	margin-left: 20px;
 	font-size: 78px;
 	height: 10px;
 }
 .image{
+	display: inline-block;
+	margin : 0px 0px 0px 150px;
+}
+.top-sec{
 	display: inline-block;
 }
