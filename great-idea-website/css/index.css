@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .navigation {
+	height: 50px;
 	color : gray;
 	display: inline-block;
 	width: 100%;
@@ -73,14 +74,19 @@ h1, h2, h3, h4, h5 {
 	margin:  auto 0;
 
 }
+.innovation p{
+	width: 200px;
+}
 header{
 	display: inline-block;
 	width: 100%;
+	height: 394px;
 	
 }
 header P{
 	font-size: 17px;
 	width: 100px;
+	margin-bottom: 50px;
 	
 }
 p{
@@ -107,7 +113,7 @@ p{
 .future {
 	display: inline-block;
 	width: 49%;
-	height: 200px;
+	height: 100%;
 	background-color: yellow;
 }
 
@@ -115,10 +121,11 @@ p{
 	display: inline-block;
 
 	width: 49%;
-	height: 200px;
+	height: 100%;
 	background-color: teal;
 }
 .future p{
+	margin-left: 300px;
 	
 }
 .imga {
@@ -126,5 +133,26 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	width : 50%
+
+}
+.services{
+	display: inline-block;
+	width: 28%;
+}
+.product {
+	display: inline-block;
+	width: 30%;
+}
+.vision {
+	display: inline-block;
+	width: 28%;
+}
+
+
+
+
+
+footer{
+	text-align: center;
 
 }
